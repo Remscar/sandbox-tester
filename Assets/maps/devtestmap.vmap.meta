@@ -1,0 +1,24 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "devtestmap",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "devtestmap",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "eurorp.door01_right_01#12553",
+        "facepunch.floor_grass_dirt_cliff_blend_a#18754",
+        "facepunch.w_usp#17493"
+      ],
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/devtestmap.vmap"
+      }
+    }
+  }
+}

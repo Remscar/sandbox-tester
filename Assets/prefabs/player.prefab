@@ -1,0 +1,94 @@
+{
+  "RootObject": {
+    "__guid": "e57369cd-4187-4d07-aede-90e1ae14a373",
+    "Flags": 0,
+    "Name": "player",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.SkinnedModelRenderer",
+        "__guid": "a7c72a19-f25d-4037-b620-02876a5b8f46",
+        "BodyGroups": 18446744073709551615,
+        "CreateBoneObjects": false,
+        "Morphs": {},
+        "Parameters": {
+          "bools": {},
+          "ints": {},
+          "floats": {},
+          "vectors": {},
+          "rotations": {}
+        },
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1",
+        "UseAnimGraph": true
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "7a92d64d-9193-4d37-a2a2-a0e0d7c79a48",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {},
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "Sandbox.SphereCollider",
+        "__guid": "92b66224-6482-4510-b0ec-a8a1518d0039",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Radius": 30,
+        "Static": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "edbd4b20-87f7-4e0f-98f8-45f64824b029",
+        "Flags": 0,
+        "Name": "Camera",
+        "Position": "0,0,285.2698",
+        "Rotation": "0,0.7071067,0,0.7071068",
+        "Tags": "maincamera",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.CameraComponent",
+            "__guid": "f70690e8-cacd-4d2f-89fd-02bee521ebb4",
+            "BackgroundColor": "0.33333,0.46275,0.52157,1",
+            "ClearFlags": "All",
+            "FieldOfView": 60,
+            "IsMainCamera": true,
+            "Orthographic": false,
+            "OrthographicHeight": 1204,
+            "Priority": 1,
+            "RenderExcludeTags": "",
+            "RenderTags": "",
+            "TargetEye": "None",
+            "Viewport": "0,0,1,1",
+            "ZFar": 10000,
+            "ZNear": 10
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "IsValid": true,
+  "__version": 1
+}
