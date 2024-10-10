@@ -59,7 +59,6 @@
         "Position": "0,0,285.2698",
         "Rotation": "0,0.7071067,0,0.7071068",
         "Tags": "maincamera",
-        "Enabled": true,
         "Components": [
           {
             "__type": "Sandbox.CameraComponent",
