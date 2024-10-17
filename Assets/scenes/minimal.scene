@@ -95,26 +95,6 @@
       ]
     },
     {
-      "__guid": "4e1dce11-2792-4a98-a784-64c1db00f6a7",
-      "Flags": 0,
-      "Name": "Map",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.MapInstance",
-          "__guid": "56dcb83b-d484-4c04-8266-5ecbe961f71b",
-          "__version": 1,
-          "EnableCollision": true,
-          "MapName": "maps/devtestmap.vmap",
-          "NoOrigin": false,
-          "OnMapLoaded": null,
-          "OnMapUnloaded": null,
-          "UseMapFromLaunch": false
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "6e69166d-0126-49ef-af31-011ccb51f1c8",
       "Flags": 0,
       "Name": "Manager",
@@ -144,6 +124,26 @@
       "Name": "SpawnPoint",
       "Position": "0,0,300",
       "Enabled": true
+    },
+    {
+      "__guid": "626ce501-3039-488d-9b30-9111a513c6fe",
+      "Flags": 0,
+      "Name": "Map",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MapInstance",
+          "__guid": "bdeb45e2-2997-4c23-8d38-af8384f06003",
+          "__version": 1,
+          "EnableCollision": true,
+          "MapName": "maps/devtestmap.vmap",
+          "NoOrigin": false,
+          "OnMapLoaded": null,
+          "OnMapUnloaded": null,
+          "UseMapFromLaunch": true
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
