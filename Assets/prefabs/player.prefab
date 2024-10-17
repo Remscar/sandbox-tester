@@ -49,6 +49,10 @@
         "IsTrigger": false,
         "Radius": 30,
         "Static": false
+      },
+      {
+        "__type": "ClickToSend",
+        "__guid": "2681222b-1f31-4067-bcf2-e353ec0bd18b"
       }
     ],
     "Children": [
@@ -88,6 +92,5 @@
   "DontBreakAsTemplate": false,
   "ResourceVersion": 1,
   "__references": [],
-  "IsValid": true,
   "__version": 1
 }
